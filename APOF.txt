@@ -1,0 +1,24 @@
+Information :- As per new pension regulation, individuals born in 1963 and younger and who employed in a public service will earn up a retirement pension by accruing funds in a pensjonsbeholdning, which will be used for calculating new retirement pension, called påslagsordningen or Alderspensjon 2025.
+Those members, who have been employed in the public sector and have earnings before 1st of January, 2020  and continue in a position as a public employee after 2020, will be paid a retirement pension as a combination of two different regulations for calculation.  Where the part of their earnings, accrued before 31st of December 2019, will be calculated according to the old rules and will be coordinated with the National Insurance Scheme. For individuals who only have earnings in the public sector from and including 1st of January, 2020 , a retirement pension will be calculated by following the new regulation and there will be no coordination with the National Insurance Scheme.
+The earnings received before 31st of December 2019 are accrued in retirement pension earned before 2020 and shall not be stopped, graded or transferred to påslagspensjon. In order to be entitled to retirement pension earned before 2020 , member must have at least three years of total membership in both bruttordningen and påslagsordningen. The earliest retirement age when pension rights can be started is 62 y.o, thus the first possible withdrawal of the benefit for individuals born in 1963 will be in 2025.
+Rules :-
+1.  This pension is givem to employees in public sector.
+2.  If the employee has worked in private sector then it should be before 2020.
+3.  The employee must have 3 years of membership in order to apply for pension.
+4.	The person must be between the age of  62-75 years in 01-Jan-2025.
+5.	Pension Withdrawal degree is 100%
+6.	This pension cannot be stopped or reduced.
+7.	No rights shall be transferred to påslagspensjon.
+8.	Full amount can be paid if membership before 2020 is 30 years or more, if total years less than 30 years to be reduced as per reduction factor
+9.	Lifelong benefit
+10.	Can be combined with other benefits like disability , påslagspension.
+11.	Can be combined with arbeidsinntekt without being reduced
+12.	Is a subject of samordning with NAV benefit
+13.	in total with NAV benefit is calculated as 66% of pension basis (can be corner cases with 70% of bruttogaranti)
+14.	Must be adjusted to life expectancy set for age group at withdrawal date.
+15. If a member has child then the age of the member should be 65 years or older at the time of applying pension.
+16. The child must be under 18 years old.
+16. The member can have multiple children under 18 years
+17. The child supplement given to the member is 10% of the gross pension for each child under the age of 18.
+18. Maximum pension allowed is 90% of the pension basisc calculated and 10% as child supplement.
+19. If several children under the age of 18, the pension might be higher than 90 % of the pension basis, and in those cases the child supplement is reduced, so the pension is not higher than 90 % of the pension basis.

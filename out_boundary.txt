@@ -1,0 +1,51 @@
+Based on the provided functional specification, let's create boundary test cases for each rule. Each test case will be designed to test the boundary conditions of the rules, ensuring that we cover all the requirements. Here is an example of how the test cases could be structured: + 
+ + 
+### Test Case #1 + 
+- **Requirement Being Tested**: Rule 1 - Pension is given to employees in the public sector. + 
+- **Test Steps**: Verify if the pension is granted for an individual employed in the public sector. + 
+- **Sample Data**: Employee A, employed in public sector since 2015. + 
+- **Expected Output**: Pension is granted. + 
+ + 
+### Test Case #2 + 
+- **Requirement Being Tested**: Rule 2 - If the employee has worked in the private sector, then it should be before 2020. + 
+- **Test Steps**: Verify if the pension is not granted for an individual who started working in the private sector after 2020. + 
+- **Sample Data**: Employee B, started working in private sector in 2021. + 
+- **Expected Output**: Pension is not granted. + 
+ + 
+### Test Case #3 + 
+- **Requirement Being Tested**: Rule 3 - The employee must have 3 years of membership in order to apply for the pension. + 
+- **Test Steps**: Verify if the pension is not granted for an individual with less than 3 years of membership. + 
+- **Sample Data**: Employee C, 2 years and 11 months of membership. + 
+- **Expected Output**: Pension is not granted. + 
+ + 
+### Test Case #4 + 
+- **Requirement Being Tested**: Rule 4 - The person must be between the age of 62-75 years on 01-Jan-2025. + 
+- **Test Steps**: Verify if the pension is granted for an individual who turns 62 on 01-Jan-2025. + 
+- **Sample Data**: Employee D, born on 01-Jan-1963. + 
+- **Expected Output**: Pension is granted. + 
+ + 
+### Test Case #5 + 
+- **Requirement Being Tested**: Rule 4 - The person must be between the age of 62-75 years on 01-Jan-2025. + 
+- **Test Steps**: Verify if the pension is not granted for an individual who is younger than 62 on 01-Jan-2025. + 
+- **Sample Data**: Employee E, born on 02-Jan-1963. + 
+- **Expected Output**: Pension is not granted. + 
+ + 
+### Test Case #6 + 
+- **Requirement Being Tested**: Rule 14 - Pension must be adjusted to life expectancy set for age group at withdrawal date. + 
+- **Test Steps**: Verify if the pension amount is adjusted according to the life expectancy for an individual at the time of withdrawal. + 
+- **Sample Data**: Employee F, 62 years old, life expectancy adjustment factor applicable. + 
+- **Expected Output**: Pension amount is adjusted as per life expectancy factor. + 
+ + 
+### Test Case #7 + 
+- **Requirement Being Tested**: Rule 15 & 16 - If a member has a child, then the age of the member should be 65 years or older at the time of applying for pension. The child must be under 18 years old. + 
+- **Test Steps**: Verify if the pension is granted with a child supplement for a member who is 65 years old with a child under 18. + 
+- **Sample Data**: Employee G, 65 years old with a 17-year-old child. + 
+- **Expected Output**: Pension is granted with a 10% child supplement. + 
+ + 
+### Test Case #8 + 
+- **Requirement Being Tested**: Rule 18 & 19 - Maximum pension allowed is 90% of the pension basis calculated and 10% as child supplement. If several children under the age of 18, the pension might be higher than 90% of the pension basis, and in those cases, the child supplement is reduced. + 
+- **Test Steps**: Verify if the pension with child supplement does not exceed 90% of the pension basis when multiple children are under the age of 18. + 
+- **Sample Data**: Employee H, 65 years old with three children under 18. + 
+- **Expected Output**: Total pension including child supplements does not exceed 90% of the pension basis. + 
+ + 
+Each test case should be executed with the sample data provided to ensure the system behaves as expected according to the rules set forth in the requirements. Any deviations from the expected output should be logged as defects and addressed by the development team. + 

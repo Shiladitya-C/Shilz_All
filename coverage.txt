@@ -1,0 +1,46 @@
+To review the test coverage against the requirement, we will analyze the functional specification and the provided test cases. We'll identify if the test cases adequately cover the requirements or if there are gaps. Here is an assessment based on the rules provided: + 
+ + 
+Functional Specification Assessment: + 
+1. The pension is for employees in the public sector. + 
+2. If the employee worked in the private sector, it should be before 2020. + 
+3. The employee must have 3 years of membership to apply for a pension. + 
+4. The person must be between the ages of 62-75 years on 01-Jan-2025. + 
+5. Pension withdrawal degree is 100%. + 
+6. The pension cannot be stopped or reduced. + 
+7. No rights shall be transferred to påslagspensjon. + 
+8. Full amount paid if membership before 2020 is 30 years or more, reduced otherwise. + 
+9. Lifelong benefit. + 
+10. Can be combined with other benefits like disability, påslagspension. + 
+11. Can be combined with arbeidsinntekt without being reduced. + 
+12. Is a subject of samordning with NAV benefit. + 
+13. In total with NAV benefit is calculated as 66% of the pension basis (with exceptions). + 
+14. Must be adjusted to life expectancy set for age group at withdrawal date. + 
+15. If a member has a child, the member should be 65 years or older when applying for a pension. + 
+16. The child must be under 18 years old. + 
+17. The child supplement given is 10% of the gross pension for each child under 18. + 
+18. Maximum pension allowed is 90% of the pension basis calculated and 10% as child supplement. + 
+19. If several children under 18, the pension might be higher than 90% of the pension basis, but the child supplement is reduced to maintain the limit. + 
+ + 
+Test Cases Assessment: + 
+Test 1#: Covers requirement 4 (age aspect of the pension). + 
+Test 2#: Covers requirement 4 (age aspect) and partially requirement 8 (30 years of income before 2020). + 
+Test 3#: Violates requirement 3 (3 years of membership needed) and partially tests requirement 4. + 
+Test 4#: Covers requirement 3 (3 years of income to apply) and partially requirement 4. + 
+ + 
+Missing Test Cases: + 
+- A test case for an individual who has earnings in the public sector only from 1st January 2020, to verify the new pension calculation without coordination with the National Insurance Scheme (related to rule 2). + 
+- A test case for members with earnings accrued before 31st December 2019 and after to ensure proper calculation according to old and new rules (related to rule 2). + 
+- A test case for someone between 62-75 years old at the date of withdrawal to ensure age compliance (related to rule 4). + 
+- A test case to verify that the pension cannot be stopped or reduced (related to rule 6). + 
+- A test case to ensure that no rights are transferred to påslagspensjon (related to rule 7). + 
+- A test case for someone with less than 30 years of membership before 2020 to ensure the reduction factor is applied (related to rule 8). + 
+- A test case for combining the pension with other benefits like disability, påslagspension (related to rule 10). + 
+- A test case for combining the pension with arbeidsinntekt (related to rule 11). + 
+- A test case that includes samordning with NAV benefit (related to rule 12). + 
+- A test case to verify the adjustment to life expectancy (related to rule 14). + 
+- A test case for a member with a child to ensure the member is at least 65 years old (related to rule 15). + 
+- A test case to ensure the child supplement is accurately calculated at 10% of the gross pension for each child under 18 (related to rule 17). + 
+- A test case to ensure that the maximum pension with child supplement does not exceed 90% of the pension basis (related to rule 18). + 
+- A test case for a member with several children under 18 to ensure the pension does not exceed the maximum allowed (related to rule 19). + 
+ + 
+It is also important to validate that the test cases cover corner cases, negative scenarios, and boundary conditions to ensure comprehensive test coverage. + 

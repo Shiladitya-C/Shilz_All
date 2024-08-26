@@ -1,0 +1,94 @@
+Based on the provided functional specification, here are 10 positive test cases that cover all combinations of rules and ensure that the entire requirement is covered: + 
+ + 
+**Test Case #1: Public Sector Employment and Age Eligibility** + 
+ + 
+- Test Condition: Verify pension eligibility for a public sector employee born in 1963. + 
+- Requirement: Rules 1, 4. + 
+- Steps: + 
+  1. Confirm the individual's birth year is 1963. + 
+  2. Verify employment in the public sector. + 
+  3. Check if the current date is on or after 01-Jan-2025. + 
+- Expected Output: The individual is eligible for the pension as per the påslagsordningen. + 
+ + 
+**Test Case #2: Membership Duration and Age Eligibility** + 
+ + 
+- Test Condition: Verify pension eligibility for a member with 3 years of membership aged 62 in 2025. + 
+- Requirement: Rules 3, 4. + 
+- Steps: + 
+  1. Confirm the individual has at least 3 years of membership. + 
+  2. Verify the individual's age will be 62 on 01-Jan-2025. + 
+- Expected Output: The individual is eligible for the retirement pension earned before 2020 and påslagspensjon. + 
+ + 
+**Test Case #3: Membership Before and After 2020** + 
+ + 
+- Test Condition: Verify calculation of pension for earnings before and after 31st December 2019. + 
+- Requirement: Information 2. + 
+- Steps: + 
+  1. Confirm earnings before 31st December 2019. + 
+  2. Confirm continuation of public sector employment after 2020. + 
+  3. Calculate pension from two different regulations. + 
+- Expected Output: The individual receives a combination of retirement pension calculated according to old rules (before 2020) and new regulation (after 2020). + 
+ + 
+**Test Case #4: Employment in Private Sector Before 2020** + 
+ + 
+- Test Condition: Verify eligibility for an employee who worked in the private sector before 2020 and moved to the public sector. + 
+- Requirement: Rules 1, 2. + 
+- Steps: + 
+  1. Confirm employment in private sector before 2020. + 
+  2. Confirm public sector employment after 2020. + 
+- Expected Output: The individual is eligible for the pension calculated by the new regulation without coordination with the National Insurance Scheme. + 
+ + 
+**Test Case #5: Retirement Age and Withdrawal Degree** + 
+ + 
+- Test Condition: Verify the pension withdrawal at the retirement age of 62 with a full degree. + 
+- Requirement: Rules 4, 5. + 
+- Steps: + 
+  1. Confirm the individual is 62 years old in 2025. + 
+  2. Verify the pension withdrawal degree is set to 100%. + 
+- Expected Output: The individual can withdraw full pension benefits. + 
+ + 
+**Test Case #6: Full Pension for 30+ Years of Membership** + 
+ + 
+- Test Condition: Verify full pension payment for a member with more than 30 years of membership before 2020. + 
+- Requirement: Rules 8. + 
+- Steps: + 
+  1. Confirm membership of 30 or more years before 2020. + 
+- Expected Output: The individual receives the full amount of pension without reduction. + 
+ + 
+**Test Case #7: Child Supplement Eligibility** + 
+ + 
+- Test Condition: Verify eligibility for child supplement for a member with a child under 18. + 
+- Requirement: Rules 15, 16, 17. + 
+- Steps: + 
+  1. Confirm the age of the member is 65 or older at the time of pension application. + 
+  2. Verify the member has a child under the age of 18. + 
+- Expected Output: The individual is eligible for a 10% child supplement per child. + 
+ + 
+**Test Case #8: Maximum Pension with Child Supplement** + 
+ + 
+- Test Condition: Verify the maximum pension calculation for a member with multiple children under 18. + 
+- Requirement: Rules 18, 19. + 
+- Steps: + 
+  1. Confirm the individual has several children under the age of 18. + 
+  2. Calculate the pension and child supplement. + 
+- Expected Output: The individual receives a pension not higher than 90% of the pension basis, with child supplement adjusted if necessary. + 
+ + 
+**Test Case #9: Combination with Other Benefits** + 
+ + 
+- Test Condition: Verify the pension in combination with disability benefit. + 
+- Requirement: Rules 10. + 
+- Steps: + 
+  1. Confirm the individual is eligible for both retirement and disability benefits. + 
+  2. Check if the benefits can be combined without reduction. + 
+- Expected Output: The individual can receive both retirement and disability benefits. + 
+ + 
+**Test Case #10: Pension Adjustment to Life Expectancy** + 
+ + 
+- Test Condition: Verify pension adjustment according to life expectancy at withdrawal date. + 
+- Requirement: Rules 14. + 
+- Steps: + 
+  1. Confirm the individual's age at the time of pension withdrawal. + 
+  2. Adjust the pension according to the life expectancy set for that age group. + 
+- Expected Output: The individual's pension is adjusted according to the life expectancy factor. + 
+ + 
+Each of these test cases should be executed to ensure that the pension system behaves as expected according to the functional requirements provided. + 

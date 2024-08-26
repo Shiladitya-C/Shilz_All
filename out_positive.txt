@@ -1,0 +1,91 @@
+Creating test cases based on the given functional specifications requires careful consideration of each rule and the associated information. Below are 10 positive test cases that cover the requirements specified in the functional specification: + 
+ + 
+**Test Case #1: Eligibility for Public Sector Employee Born in 1963** + 
+ + 
+- **Requirement**: Information; Rules 1, 4. + 
+- **Test Steps**:  + 
+   1. Check if the individual was born in 1963. + 
+   2. Confirm the individual is employed in the public sector. + 
+   3. Verify the individual's age as of 01-Jan-2025. + 
+- **Sample Data**: Date of birth: 1963; Employment: Public sector. + 
+- **Expected Output**: The individual is eligible for the retirement pension under the new regulation (påslagsordningen) and meets the age criteria. + 
+ + 
+**Test Case #2: Combined Pension Calculation for Pre-2020 Public Sector Employment** + 
+ + 
+- **Requirement**: Information; Rule 2. + 
+- **Test Steps**:  + 
+   1. Confirm the individual has been employed in the public sector with earnings before 1st January 2020. + 
+   2. Check the individual continues employment in the public sector after 2020. + 
+- **Sample Data**: Employment start date: 1st January 2010; Current employment status: Active in public sector. + 
+- **Expected Output**: The individual's retirement pension should be calculated as a combination of old and new regulations. + 
+ + 
+**Test Case #3: Minimum Membership Duration** + 
+ + 
+- **Requirement**: Information; Rule 3. + 
+- **Test Steps**:  + 
+   1. Verify the individual has at least three years of total membership in both bruttordningen and påslagsordningen. + 
+- **Sample Data**: Membership duration: 4 years in bruttordningen and 3 years in påslagsordningen. + 
+- **Expected Output**: The individual meets the minimum membership requirement for retirement pension earned before 2020. + 
+ + 
+**Test Case #4: Pension Withdrawal at Earliest Retirement Age** + 
+ + 
+- **Requirement**: Information; Rule 4. + 
+- **Test Steps**:  + 
+   1. Confirm the individual is at least 62 years old as of 01-Jan-2025. + 
+- **Sample Data**: Date of birth: 1963. + 
+- **Expected Output**: The individual is eligible to withdraw the pension benefit starting in 2025. + 
+ + 
+**Test Case #5: Full Pension Withdrawal** + 
+ + 
+- **Requirement**: Rule 5. + 
+- **Test Steps**:  + 
+   1. Verify that the pension withdrawal degree is set to 100%. + 
+- **Sample Data**: Withdrawal degree: 100%. + 
+- **Expected Output**: The individual is eligible for full pension withdrawal. + 
+ + 
+**Test Case #6: Pension With Long Membership** + 
+ + 
+- **Requirement**: Rule 8. + 
+- **Test Steps**:  + 
+   1. Confirm the individual has 30 or more years of membership before 2020. + 
+- **Sample Data**: Membership years before 2020: 30. + 
+- **Expected Output**: The individual is eligible for the full pension amount without reduction. + 
+ + 
+**Test Case #7: Pension Combined with Disability Benefit** + 
+ + 
+- **Requirement**: Rule 10. + 
+- **Test Steps**:  + 
+   1. Confirm the individual is receiving a disability benefit. + 
+   2. Check pension eligibility and computation including disability benefit. + 
+- **Sample Data**: Disability benefit status: Active recipient. + 
+- **Expected Output**: The individual receives both pension and disability benefits without pension reduction. + 
+ + 
+**Test Case #8: Pension with Child Supplement for Multiple Children** + 
+ + 
+- **Requirement**: Rules 16, 17, 18, 19. + 
+- **Test Steps**:  + 
+   1. Confirm the individual has multiple children under 18 years. + 
+   2. Calculate the child supplement for each child. + 
+   3. Ensure the total pension does not exceed 90% of the pension basis after the child supplement is added. + 
+- **Sample Data**: Number of children under 18: 3. + 
+- **Expected Output**: The pension with child supplements does not exceed 90% of the pension basis. + 
+ + 
+**Test Case #9: Pension Adjustment Based on Life Expectancy** + 
+ + 
+- **Requirement**: Rule 14. + 
+- **Test Steps**:  + 
+   1. Check the life expectancy set for the individual's age group at the withdrawal date. + 
+   2. Adjust the pension amount according to the life expectancy. + 
+- **Sample Data**: Age at withdrawal: 62; Life expectancy adjustment factor: Applicable. + 
+- **Expected Output**: The pension is adjusted based on the life expectancy factor. + 
+ + 
+**Test Case #10: Pension with Earnings After 2020** + 
+ + 
+- **Requirement**: Information; Rule 11. + 
+- **Test Steps**:  + 
+   1. Confirm the individual only has earnings in the public sector from and including 1st January 2020. + 
+   2. Calculate retirement pension following the new regulation without coordination with the National Insurance Scheme. + 
+- **Sample Data**: Employment start date: 1st January 2020. + 
+- **Expected Output**: The individual's retirement pension is calculated solely under the new regulation without any reductions. + 
+ + 
+Each test case should be executed with the sample data provided to confirm the expected output aligns with the functional requirements. This will ensure comprehensive coverage of all the rules within the pension regulation. + 
