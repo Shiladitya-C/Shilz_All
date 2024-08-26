@@ -1,0 +1,4 @@
+Test 1#: Member of age 62 years applies for pension.
+Test 2#: Member of age 63 years and 30 years of income before 2020 applies for pension.
+Test 3#: Member of age 62 years with 2 years of income applies for pension.
+Test 4#: Member of age 63 years with 3 years of income applies for pension. 

@@ -1,0 +1,46 @@
+To create negative test cases from the given functional requirements, we first need to identify scenarios where the application of the rules would result in a denial of pension benefits. Below are five negative test cases that incorporate the given rules and cover all combinations logically. + 
+ + 
+**Test Case #1: Ineligible Age** + 
+- **Requirement**: The person must be between the age of 62-75 years on 01-Jan-2025 (Rule 4). + 
+- **Test Steps**: + 
+  1. Enter the birth year as 1966. + 
+  2. Set the application date to 01-Jan-2025. + 
+  3. Attempt to apply for the pension. + 
+- **Sample Data**: Birth year: 1966. + 
+- **Expected Output**: Application is rejected due to the applicant not being 62 years old on 01-Jan-2025. + 
+ + 
+**Test Case #2: Insufficient Membership Duration** + 
+- **Requirement**: The employee must have 3 years of membership (Rule 3). + 
+- **Test Steps**: + 
+  1. Enter membership years as 2. + 
+  2. Attempt to apply for the pension. + 
+- **Sample Data**: Membership years: 2. + 
+- **Expected Output**: Application is rejected due to insufficient membership duration. + 
+ + 
+**Test Case #3: Employment in Private Sector Post-2020** + 
+- **Requirement**: If the employee has worked in the private sector, then it should be before 2020 (Rule 2). + 
+- **Test Steps**: + 
+  1. Enter employment details as private sector with start date post-01-Jan-2020. + 
+  2. Attempt to apply for the pension. + 
+- **Sample Data**: Employment start date: 02-Jan-2020, Sector: Private. + 
+- **Expected Output**: Application is rejected due to ineligible private sector employment post-2020. + 
+ + 
+**Test Case #4: No Child Supplement Eligibility** + 
+- **Requirement**: If a member has a child, then the age of the member should be 65 years or older at the time of applying for the pension (Rule 15). + 
+- **Test Steps**: + 
+  1. Enter the member's age as 64. + 
+  2. Indicate that the member has a child under 18. + 
+  3. Attempt to apply for child supplement pension. + 
+- **Sample Data**: Age: 64, Child under 18: Yes. + 
+- **Expected Output**: Application for child supplement is rejected due to the member being under 65 years of age. + 
+ + 
+**Test Case #5: Exceeding Pension Cap with Child Supplement** + 
+- **Requirement**: The pension, including the child supplement, should not exceed 90% of the pension basis (Rule 18). + 
+- **Test Steps**: + 
+  1. Calculate the pension basis as per the member's earnings. + 
+  2. Indicate that the member has multiple children under 18. + 
+  3. Attempt to apply for a pension that would result in a total amount exceeding 90% of the pension basis. + 
+- **Sample Data**: Pension basis: $50,000, Number of children under 18: 5. + 
+- **Expected Output**: Application is rejected or adjusted due to the total pension amount, including child supplements, exceeding 90% of the pension basis. + 
+ + 
+Each of these test cases should be run to ensure that the pension system properly denies benefits under conditions that do not meet the specified requirements. These negative test cases help ensure that the system is robust and adheres to the rules as defined in the functional specification. + 
